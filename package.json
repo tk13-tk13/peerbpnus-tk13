@@ -1,25 +1,16 @@
 {
-  "name": "takibot",
+  "name": "peerbonus",
   "version": "0.0.0",
   "private": true,
-  "author": "takimoto",
-  "description": "A simple helpful robot for your Company",
-  "dependencies": {
-    "hubot": "^2.19.0",
-    "hubot-diagnostics": "0.0.1",
-    "hubot-google-images": "^0.2.6",
-    "hubot-google-translate": "^0.2.0",
-    "hubot-help": "^0.2.0",
-    "hubot-heroku-keepalive": "^1.0.2",
-    "hubot-maps": "0.0.2",
-    "hubot-pugme": "^0.1.0",
-    "hubot-redis-brain": "0.0.3",
-    "hubot-rules": "^0.1.1",
-    "hubot-scripts": "^2.17.2",
-    "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^4.1.0"
+  "scripts": {
+    "start": "node ./bin/www"
   },
-  "engines": {
-    "node": "0.10.x"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
